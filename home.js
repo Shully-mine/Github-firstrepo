@@ -1,7 +1,8 @@
 console.log();
- function msg () 
+ function msg (message) 
  {
- alert ("Holla");
+ alert (message);
+ console.log(message);
 }
  
   
