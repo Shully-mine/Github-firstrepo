@@ -11,7 +11,24 @@
     <p>Shop for all your Computer devices.Our Products ranges from bluetooths to the latest laptop.</p>
     <p>Select Maximum of two items at a time. Thank you
     </p>
-    <script src="home.js"></script>   
+    <script src="home.js"></script> 
+    <script>
+      function validateform (){
+        var name=document.myform.name.value;
+        var password=document.myform.password.value;
+        if (name==null||name==""){
+          alert("Name cannot be blank");
+          return false;
+        }
+        elseif(password.length<7){
+          alert(
+            "Password must be at least 6 characters long");
+            return false;
+          )
+        }
+
+        }
+    </script>  
     <form>
       <input type="button" value="click" onclick="msg('my new greeting')"/>
      </form>
