@@ -12,7 +12,7 @@ function validateform (){
       alert("Name cannot be blank");
       return false;
     }
-     elseif(password.length<7);
+     elseif(password.length<6)
      {
       alert(
         "Password must be at least 6 characters long");
