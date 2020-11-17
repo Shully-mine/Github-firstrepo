@@ -14,8 +14,6 @@ function validateform (){
     }
      elseif(password.length<6)
      {
-      alert(
-        "Password must be at least 6 characters long");
+      alert("Password must be at least 6 characters long");
         return false;
-        )
-      }
+     }
