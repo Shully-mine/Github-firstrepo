@@ -14,9 +14,10 @@
 <p>Shop for all your Computer devices.Our Products ranges from bluetooths to the latest laptop.</p>
     <p>Select Maximum of two items at a time. Thank you
     </p>
-      <input type="button" value="click" onclick="msg('my new greeting')"/>
+      <input type="button" value="click" onclick="msg('my new greeting')" class="btn-btn"/> 
      <form name="myform" method="post" class="form"  action="abc.jsp" onsubmit="return validateform()">
-      
+      <fieldset>
+        <legend>test</legend>
       <div class="form-group">
         <label> Name:</label> 
       <input type="text" class="form-control" name="name">   
@@ -27,8 +28,9 @@
       <input type="password" class="form-control" name="password"></form>
     </div>
 
-      <input type="submit" class="form-control" value="register">
-     </form>
+      <input type="submit" class="pull-right btn btn-primary" value="Register">
+    </fieldset>
+  </form>
      <script src="home.js"></script> 
      <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
