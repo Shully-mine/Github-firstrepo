@@ -4,17 +4,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Shully's site</title>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 </head>
 <body>
+ <div class="container"> 
     <h1>Computer Devices</h1>
-    <p>Shop for all your Computer devices.Our Products ranges from bluetooths to the latest laptop.</p>
+<p>Shop for all your Computer devices.Our Products ranges from bluetooths to the latest laptop.</p>
     <p>Select Maximum of two items at a time. Thank you
     </p>
-    <script src="home.js"></script>   
-    <form>
-      <input type="button" value="click" onclick="msg('my new greeting')"/>
-     </form>
+      <input type="button" value="click" onclick="msg('my new greeting')" class="btn-btn"/> 
+     <form name="myform" method="post" class="form"  action="abc.jsp" onsubmit="return validateform()">
+      <fieldset>
+        <legend>test</legend>
+      <div class="form-group">
+        <label> Name:</label> 
+      <input type="text" class="form-control" name="name">   
+     </div>
 
-</body
-</html>
+      <div class="form-group">
+      <label> Password:</label>
+      <input type="password" class="form-control" name="password"></form>
+    </div>
+
+      <input type="submit" class="pull-right btn btn-primary" value="Register">
+    </fieldset>
+  </form>
+     <script src="home.js"></script> 
+     <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>   
+    
+    </div>
+ </body
+ </html>
