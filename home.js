@@ -19,3 +19,14 @@ function validateform ()
         return false;
      }
     }
+    // Submit form with name function.
+function submit_by_name() {
+  var name = document.getElementById("name").value;
+  var email = document.getElementById("Password").value;
+  if (validation()) // Calling validation function
+  {
+  var x = document.getElementsByName('form_name');
+  x[0].submit(); //form submission
+  alert(" Name : " + name + " n Password : " + email + " n Form Name : " + document.getElementById("form_id").getAttribute("name") + "nn Form Submitted Successfully......");
+  }
+  }
