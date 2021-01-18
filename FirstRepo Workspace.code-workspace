@@ -7,5 +7,7 @@
 			"path": "..\\Website Project"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Website Project"
+	}
 }
